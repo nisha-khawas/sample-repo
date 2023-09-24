@@ -1,0 +1,56 @@
+#btn {
+  padding: 10px;
+  background-color: red;
+  border: none;
+  margin-top: 10px;
+}
+.btn2 {
+  padding: 10px;
+margin-left: 100px;
+  background-color: rgb(123, 83, 165);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.btn2:hover {
+  color: rgb(200, 166, 172);
+}
+
+.countriesWrapper {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  display: grid;
+}
+
+.headerWrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  padding: 20px 10px;
+  background-color: blue;
+  position: sticky;
+}
+.headerWrapper a {
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 500;
+}
+.headerWrapper a:hover {
+  color: rgb(238, 139, 139);
+}
+.headerWrapper1 {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  padding: 15px 10px;
+  background-color: rgb(200, 166, 172);
+}
+.headerWrapper1 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 500;
+}
+.headerWrapper1 a:hover {
+  color: rgb(238, 139, 139);
+}

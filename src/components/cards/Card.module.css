@@ -1,0 +1,20 @@
+.cardWrapper {
+  display: grid;
+  gap: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 6px;
+  justify-content: center;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.cardImage {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+.infoWrapper {
+  display: grid;
+  /* gap: 4px; */
+}
